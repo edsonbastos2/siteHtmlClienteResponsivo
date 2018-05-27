@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Design Responsivo</title>
+    <link rel="stylesheet" href="normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-home.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="logo">EdsonBastos</a>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn">Abrir/fecha menu</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item menu-principal__item--active" href="index.html">Home</a></li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre Nós</a></li>
+                <li><a class="menu-principal__item" href="portifolio.html">Portifolio</a></li>
+                <li><a class="menu-principal__item" href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header class="cabecalho-home">
+            <h2 class="cabecalho-home__titulo">Texto grande aqui !</h2>
+            <p class="cabecalho-home__subtitulo">Texto pequeno aqui !</p>
+            <a class="cabecalho-home__role" href="#servicos">role para ver mais</a>
+        </header>
+
+        <section id="servicos" class="servicos-home"><!-- Seção serviços-->
+            <h2 class="servicos-home__titulo">O que fazemos</h2>
+            <section class="servicos-home__item">
+                <img src="img/icone-desenvolvimento-web.png" alt="icone que representa o desenvolvimento web">
+                <h3>Desenvolvimento Web</h3>
+                <p class="servicos-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam rerum architecto voluptatibus. Corrupti quod consequatur, tempora voluptatem libero eos officiis fugiat sapiente animi, possimus commodi dicta suscipit magni debitis fuga.</p>
+            </section>
+
+            <section class="servicos-home__item">
+                <img src="img/icone-carrinho-compras.png" alt="icone que representa o desenvolvimento web">
+                <h3>e-commerce</h3>
+                <p class="servicos-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam rerum architecto voluptatibus. Corrupti quod consequatur, tempora voluptatem libero eos officiis fugiat sapiente animi, possimus commodi dicta suscipit magni debitis fuga.</p>
+            </section>
+
+            <section class="servicos-home__item">
+                <img src="img/icone-cafe.png" alt="icone que representa o desenvolvimento web">
+                <h3>Café</h3>
+                <p class="servicos-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam rerum architecto voluptatibus. Corrupti quod consequatur, tempora voluptatem libero eos officiis fugiat sapiente animi, possimus commodi dicta suscipit magni debitis fuga.</p>
+            </section>
+        </section><!-- Fim Seção serviços-->
+
+        <section class="depoimento"><!--Seção depoimentos-->
+            <h3 class="servicos-home__titulo depoimento__titulo">Depoimentos</h3>
+            <section class="servicos__item">
+                <img class="depoimento__img" src="img/depoimentos/pessoa-1.jpg" alt="depoimento da pessoa x">
+                <p class="depoimento__texto"> Phasellus dapibus sapien et est blandit, ornare interdum arcu iaculis. Vestibulum placerat ex sit amet erat mattis bibendum. Mauris non mi augue.</p>
+                <p class="depoimento__pessoa">Nome da pessoa</p>
+            </section>
+        </section><!-- Fim Seção depoimentos-->
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__linha-1">
+            <div class="rodape__coluna">
+                <a class="logo logo--branco" href="index.html">Edsonbastos</a>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis odio eum facere repellendus nihil suscipit enim 
+                    inventore alias ad iste culpa fuga voluptates aspernatur 
+                    dignissimos minima eius, voluptatum temporibus exercitationem!
+                    </p>    
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape__lista-link">
+                    <li><a class="rodape__lista-links__item" href="https//twitter.com">Twitter</a></li>
+                    <li><a class="rodape__lista-links__item" href="https//facebook.com">Facebook</a></li>
+                    <li><a class="rodape__lista-links__item" href="https//instagram.com">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-link">
+                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre Nós</a></li>
+                    <li><a class="rodape__lista-links__item" href="portifolio.html">Portifolio</a></li>
+                    <li><a class="rodape__lista-links__item" href="contato.html">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rodape__linha-2">
+                &copy; 2018 - Todos os direitos resevados Edsonbastos
+        </div>
+    </footer>
+</body>
+</html>
